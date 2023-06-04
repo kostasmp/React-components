@@ -1,0 +1,88 @@
+body{
+    background-image: linear-gradient(#362FBB, #712275, #F97698, #FFB845);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+#counterbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 600px;
+    width: 350px;
+    height: 320px;
+    box-sizing: border-box;
+    border: 4px solid darkorange;
+    padding: 15px;
+    text-align: center;
+    background-image: linear-gradient(#461E52, #DD517F,  #E68E36,  #556DC8,  #7998EE); 
+}
+
+
+
+h1{
+    color: #990099;
+    background-color: #ff8c1a;
+}
+
+#up{
+    font-size: 20px;
+    color: azure;
+    background-color: #ff751a;
+    margin-bottom: 10px;
+}
+
+#up:hover{
+    background-color: #ff944d;
+}
+
+#up:active{
+    background-color: #e65c00;
+}
+
+#down{
+    font-size: 20px;
+    color: azure;
+    background-color: darkslateblue;
+    margin-top: 15px;
+}
+
+#down:hover{
+    background-color: #5d4eb1;
+}
+
+#down:active{
+    background-color: #4a3e8e;
+}
+
+#countervalue{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 992px){
+    #counterbox{
+        margin-left: 320px;
+        width: 350px;
+        height: 320px;
+    }
+
+    #up, #down{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    #counterbox{
+        margin-left: 30px;
+        width: 350px;
+        height: 320px;
+    }
+
+    #up, #down{
+        font-size: 16px;
+    }
+}
