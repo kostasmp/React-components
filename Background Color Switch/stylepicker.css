@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#colorbtn{
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: darkgray;
+    color: white;
+    margin-left: 55px;
+}
+
+#colorbtn:active{
+    background-color: #ff884d;
+}
