@@ -1,0 +1,56 @@
+body{
+    background-image: linear-gradient(#d72631, #a2d5c6, #077b8a, #5c3c92);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+h1{
+    text-align: center;
+    color: gold;
+}
+
+#timer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+#mins, #sem, #secs{
+    font-size: 35px;
+    color: crimson;
+}
+
+#mins, #secs{
+    width: 60px;
+}
+
+input{
+    border: none;
+}
+
+button{
+    position: absolute;
+    left: 46.5%;
+    padding: 10px 25px;
+    font-size: 25px;
+    background-color: #33ccff;
+    color: azure;
+}
+
+button:hover{
+    background-color: #ac00e6;
+}
+
+button:active{
+    background-color: #ff4d4d;
+}
+
+@media screen and (max-width: 620px){
+    button{
+        left: 40%;
+    }
+}
+
